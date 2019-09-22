@@ -1,0 +1,59 @@
+﻿---
+ID: "53cfdd70-9eb8-42e3-ba56-430d56c21189"
+Parent: "87ee30c3-115f-4aeb-8c9e-bb784912011c"
+Template: "f62b4cd7-754c-4461-810f-2b6bd2c92a0d"
+Path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/User Settings
+DB: core
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 825
+- ID: "deab3795-056f-4421-adf0-758844461b72"
+  Hint: Placeholder Name
+  Value: User Settings
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          id="{7717EB6C-9F90-4C58-826D-5E87722A0318}"
+          par="Text=User+Settings&amp;IsVisible=0&amp;Id=UserSettingsTabId"
+          ph=""
+          uid="{06CC1219-E429-4579-AB70-A62407891D6E}" />
+        <r
+          id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}"
+          par="Id=UserSettingsBorder"
+          ph=""
+          uid="{FB99B174-44E1-44F3-BD99-7F57246C3385}" />
+        <r
+          id="{FD97BD6A-2C46-4EB9-9F1F-7A2D7249DCC5}"
+          par="Id=UserSettingsPanel"
+          ph="UserSettingsBorder.Content"
+          uid="{F2D589D1-C232-4EA7-97C5-9CBE63FE9D03}" />
+        <r
+          id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}"
+          par="Id=UserSettingsIndicatorImage"
+          ph="UserSettingsBorder.Content"
+          uid="{E58A1F9E-1896-4BB6-B29F-AB72FB306558}" />
+        <r
+          ds="{88134D50-FA78-406D-8C52-8286EB12BB25}"
+          id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}"
+          par="AutoShowTimeout=1000&amp;Id=UserSettingsProgressIndicator"
+          ph="UserSettingsBorder.Content"
+          uid="{7DFFD159-ED58-41B1-A87F-6BE15D9EA389}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190917T133110Z
+    - ID: "aea872fb-aa91-4d1a-b877-3ca6fbbb4fd4"
+      Hint: Header
+      Value: User Settings

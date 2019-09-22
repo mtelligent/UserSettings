@@ -1,0 +1,18 @@
+﻿---
+ID: "ad721299-f4e3-41b8-9862-44669d1e1512"
+Parent: "483ebfec-f1b9-40cc-9a26-9a675c2a9060"
+Template: "e35eaa2d-edea-431c-a9e6-488272b53782"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SaveToUserSettings/PageSettings
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190905T134057Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

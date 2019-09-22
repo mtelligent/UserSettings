@@ -1,0 +1,46 @@
+﻿---
+ID: "89d22607-2c6c-4090-8e56-242e13727e35"
+Parent: "53cfdd70-9eb8-42e3-ba56-430d56c21189"
+Template: "f62b4cd7-754c-4461-810f-2b6bd2c92a0d"
+Path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/User Settings/UserSettingsPanel
+DB: core
+SharedFields:
+- ID: "deab3795-056f-4421-adf0-758844461b72"
+  Hint: Placeholder Name
+  Value: UserSettingsPanel
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}"
+          par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fExperienceProfile%2fContact%2fUserSettings.js"
+          ph="Page.Body"
+          uid="{F8627A81-84E2-4058-9838-8CA1765B1939}" />
+        <r
+          id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}"
+          par="Id=UserSettingsBorder"
+          ph="Page.Body"
+          uid="{4F253B5F-37F7-43A5-9822-BFA022139403}" />
+        <r
+          ds="{2A069841-F8FA-479E-9DC7-64BC4EE5F306}"
+          id="{7426CD5B-A534-4462-ABEE-D700D78ECF6A}"
+          par="Id=UserSettingsTabControl"
+          ph="UserSettingsBorder.Content"
+          uid="{C9954E94-AA17-4823-89A1-A4BE84F11101}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190917T133346Z
+    - ID: "aea872fb-aa91-4d1a-b877-3ca6fbbb4fd4"
+      Hint: Header
+      Value: UserSettingsPanel

@@ -1,0 +1,17 @@
+﻿---
+ID: "e55f7fb5-1477-4f54-b587-2b2333537c02"
+Parent: "ad721299-f4e3-41b8-9862-44669d1e1512"
+Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SaveToUserSettings/PageSettings/HeaderTitle
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "240acdcd-c405-4e49-a96a-b3caab843920"
+      Hint: Text
+      Value: Save Data To User Settings Facets
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190905T134144Z

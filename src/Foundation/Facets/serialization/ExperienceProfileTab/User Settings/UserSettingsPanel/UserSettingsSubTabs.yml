@@ -1,0 +1,14 @@
+﻿---
+ID: "2a069841-f8fa-479e-9dc7-64bc4ee5f306"
+Parent: "89d22607-2c6c-4090-8e56-242e13727e35"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/User Settings/UserSettingsPanel/UserSettingsSubTabs
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190917T135123Z

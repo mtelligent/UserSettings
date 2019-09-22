@@ -1,0 +1,21 @@
+﻿---
+ID: "3849d4dc-9c78-4ea4-b899-255699d47b86"
+Parent: "e7add9ae-d464-42a9-92d5-afdf360cd205"
+Template: "dd74148e-e8fc-4774-8cba-bafdb76a4e47"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SaveToUserSettings/PageSettings/SetAreaForm/Area
+DB: core
+SharedFields:
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: Area=Value
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190905T135012Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Area

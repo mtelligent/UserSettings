@@ -1,0 +1,20 @@
+﻿---
+ID: "d7c6a5c3-fa10-403a-b980-c1b2768f5961"
+Parent: "2a069841-f8fa-479e-9dc7-64bc4ee5f306"
+Template: "8a7acb1a-0990-4c9e-a6f0-9612d0f5f51c"
+Path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/User Settings/UserSettingsPanel/UserSettingsSubTabs/UserSettingsTab
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190917T142550Z
+    - ID: "772aea8a-4d70-43f4-bd6b-ede5fb060623"
+      Hint: Tooltip
+      Value: UserSettingsTab
+    - ID: "f808909e-dc32-4da6-9e5e-ed69eb9d3ed7"
+      Hint: Header
+      Value: UserSettingsTab
