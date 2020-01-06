@@ -1,0 +1,14 @@
+﻿@model SF.Foundation.UserSettings.EETab.UserSettingsTabModel
+
+@{ 
+    foreach (var area in Model.UserSettings.Keys)
+    {
+        <h3>@area</h3>
+        <ul>
+            @foreach(var key in Model.UserSettings[area].Keys)
+            {
+                <li><strong>@key : </strong> @Model.UserSettings[area][key]</li>
+            }
+        </ul>
+    }
+}

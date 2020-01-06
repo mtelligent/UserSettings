@@ -1,0 +1,17 @@
+﻿<Settings>
+  <Sitecore>
+    <XConnect>
+      <Services>
+        <XConnect.Client.Configuration>
+          <Options>
+            <Models>
+              <CustomModel1>
+                <TypeName>SF.Foundation.Facets.Models.CollectionModel, SF.Foundation.UserSettings</TypeName>
+              </CustomModel1>
+            </Models>
+          </Options>
+        </XConnect.Client.Configuration>
+      </Services>
+    </XConnect>
+  </Sitecore>
+</Settings>

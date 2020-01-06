@@ -1,0 +1,14 @@
+﻿---
+ID: "e7add9ae-d464-42a9-92d5-afdf360cd205"
+Parent: "ad721299-f4e3-41b8-9862-44669d1e1512"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SaveToUserSettings/PageSettings/SetAreaForm
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190905T134739Z

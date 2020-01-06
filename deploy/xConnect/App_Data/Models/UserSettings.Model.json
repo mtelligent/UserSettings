@@ -1,0 +1,33 @@
+{
+  "Name": "DocumentationModel",
+  "Version": "1.0",
+  "References": [
+    {
+      "Name": "XConnect",
+      "Version": "1.0"
+    }
+  ],
+  "Types": {
+    "SF.Foundation.Facets.UserSettings": {
+      "Type": "Facet",
+      "BaseType": "Sitecore.XConnect.Facet",
+      "ClrType": "SF.Foundation.Facets.UserSettings, SF.Foundation.UserSettings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Properties": {
+        "Settings": {
+          "Type": {
+            "String": {
+              "String": "String"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Facets": [
+    {
+      "Target": "Contact",
+      "Name": "UserSettings",
+      "Type": "SF.Foundation.Facets.UserSettings"
+    }
+  ]
+}

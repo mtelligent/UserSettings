@@ -1,0 +1,22 @@
+﻿---
+ID: "d6dfdc71-7280-451d-8bc8-9af49b5d0783"
+Parent: "ad721299-f4e3-41b8-9862-44669d1e1512"
+Template: "27c78269-cef0-483f-9e7a-af27ed04ce5d"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SaveToUserSettings/PageSettings/Stylesheet
+DB: core
+SharedFields:
+- ID: "834b2406-24a9-4376-9350-cbe6da96c51a"
+  Hint: Stylesheet
+  Value: /sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/Actions.css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190905T140404Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
