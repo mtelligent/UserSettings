@@ -14,7 +14,7 @@ namespace SF.Foundation.UserSettings.EETab
 
         public override object GetModel(Guid contactId)
         {
-            Sitecore.XConnect.Contact contact = EPRepository.GetContact(contactId, Facets.FacetNames.UserSettings);
+            Sitecore.XConnect.Contact contact = EPRepository.GetContact(contactId, SF.Foundation.Facets.FacetNames.UserSettings);
             var settings = contact.GetFacet<SF.Foundation.Facets.UserSettings>().Settings;
             return new UserSettingsTabModel
             {

@@ -161,6 +161,9 @@
     <Reference Include="Sitecore.XConnect.Core, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XConnect.Core.9.3.0\lib\netstandard2.0\Sitecore.XConnect.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.XConnect.Service, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.XConnect.Service.9.3.0\lib\netstandard2.0\Sitecore.XConnect.Service.dll</HintPath>
+    </Reference>
     <Reference Include="sysglobl" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Design" />
@@ -240,6 +243,7 @@
     <Compile Include="EETab\UserSettingsTab.cs" />
     <Compile Include="EETab\UserSettingsTabModel.cs" />
     <Compile Include="Facades\UserSettings.cs" />
+    <Compile Include="Facets\MergeUserSettingsHandler.cs" />
     <Compile Include="Facets\UserSettings.cs" />
     <Compile Include="Forms\UserSettingsParameters.cs" />
     <Compile Include="Forms\UserSettingsSubmitAction.cs" />
