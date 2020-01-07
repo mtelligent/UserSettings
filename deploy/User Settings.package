@@ -1,0 +1,118 @@
+<project site="https://usersettings93sc.dev.local/" format="Zip Package" targetfilefolder="wwwroot">
+  <Metadata>
+    <metadata>
+      <PackageName>User Settings</PackageName>
+      <Author>David San Filippo</Author>
+      <Version>1.0.0</Version>
+      <Revision />
+      <License>MIT License
+
+Copyright (c) David San Filippo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</License>
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>mtelligent</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/User Settings/{CD182B59-58BF-492F-B9E3-A97A6AB46F26}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/User Settings/Tags/{A10EF476-6255-4409-AA11-9FDA411B2330}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/User Settings/User Settings Condition/{7D34DBEA-71CD-4C29-8632-58B47C2A8215}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/User Settings/Visibility/{F09D6812-C304-4B5A-9581-36FAA948257D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/User Settings/Tags/Default/{D1A62BBE-02B9-4183-978B-BA6F34D94FF8}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/User Settings/{A9BCEA23-A1F3-48A2-BA2A-9670C75FAEAC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/User Settings/Visibility/{C05B3CB7-039A-48E9-A416-BA1F2F258FEC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Conditional Renderings/Tags/Default/{B60C6A64-B367-48F0-86D9-7FA1C3D3B603}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Submit Actions/Save To User Settings/{D14ACAC0-CE67-4F05-8DB9-FA143FF4D9C2}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/Value Providers/User Settings Value Provider/{11A6CEC3-25EA-429E-9E85-D198387BFCFA}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SaveToUserSettings/{483EBFEC-F1B9-40CC-9A26-9A675C2A9060}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SaveToUserSettings/PageSettings/{AD721299-F4E3-41B8-9862-44669D1E1512}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SaveToUserSettings/PageSettings/HeaderSubtitle/{F32396CB-C8E7-4466-B62C-FD604E627E58}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SaveToUserSettings/PageSettings/HeaderTitle/{E55F7FB5-1477-4F54-B587-2B2333537C02}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SaveToUserSettings/PageSettings/SetAreaForm/{E7ADD9AE-D464-42A9-92D5-AFDF360CD205}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SaveToUserSettings/PageSettings/Stylesheet/{D6DFDC71-7280-451D-8BC8-9AF49B5D0783}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SaveToUserSettings/PageSettings/SetAreaForm/Area/{3849D4DC-9C78-4EA4-B899-255699D47B86}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/EPExpressTab.dll</x-item>
+        <x-item>/bin/SF.Foundation.UserSettings.dll</x-item>
+        <x-item>/bin/SF.Foundation.UserSettings.pdb</x-item>
+        <x-item>/App_Config/Include/Foundation/EpExpressTab.config</x-item>
+        <x-item>/App_Config/Include/Foundation/Foundation.UserSettings.config</x-item>
+        <x-item>/sitecore/shell/client/Applications/FormsBuilder/Layouts/Actions/SaveToUserSettings.js</x-item>
+        <x-item>/Views/UserSettings</x-item>
+        <x-item>/Views/UserSettings/UserSettingsTab.cshtml</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
