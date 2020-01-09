@@ -120,6 +120,8 @@ SOFTWARE.
         <x-item>/App_Config/Include/Feature/Feature.Preferences.config</x-item>
         <x-item>/bin/SF.Feature.Preference.dll</x-item>
         <x-item>/bin/SF.Feature.Preference.pdb</x-item>
+        <x-item>/Views/PreferencesList</x-item>
+        <x-item>/Views/PreferencesList/Index.cshtml</x-item>
       </Entries>
       <Converter>
         <FileToEntryConverter>
