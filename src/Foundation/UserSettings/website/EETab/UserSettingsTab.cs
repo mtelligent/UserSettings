@@ -15,11 +15,15 @@ namespace SF.Foundation.UserSettings.EETab
         public override object GetModel(Guid contactId)
         {
             Sitecore.XConnect.Contact contact = EPRepository.GetContact(contactId, SF.Foundation.Facets.FacetNames.UserSettings);
-            var settings = contact.GetFacet<SF.Foundation.Facets.UserSettings>().Settings;
-            return new UserSettingsTabModel
+            var settings = contact.GetFacet<SF.Foundation.Facets.UserSettings>();
+            if (settings != null)
             {
-                UserSettings = settings
-            };
+                return new UserSettingsTabModel
+                {
+                    UserSettings = settings.Settings
+                };
+            }
+            return new UserSettingsTabModel();
         }
 
         public override string GetFullViewPath(object model)
