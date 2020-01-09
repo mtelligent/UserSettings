@@ -118,7 +118,6 @@ SOFTWARE.
     <xfiles>
       <Entries>
         <x-item>/App_Config/Include/Feature/Feature.Preferences.config</x-item>
-        <x-item>/App_Config/Include/Feature/Feature.Preferences.Serialization.config</x-item>
         <x-item>/bin/SF.Feature.Preference.dll</x-item>
         <x-item>/bin/SF.Feature.Preference.pdb</x-item>
       </Entries>
