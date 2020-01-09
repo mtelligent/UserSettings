@@ -1,0 +1,18 @@
+﻿---
+ID: "292057b6-a599-4d40-8758-cd0d0599d1ec"
+Parent: "ebf1e8b8-85b9-4c68-844b-ad718972ac48"
+Template: "9c0dac28-08aa-4b44-bc21-53363206f6a5"
+Path: /sitecore/media library/Base Themes/Preferences List/Styles
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200108T215528Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

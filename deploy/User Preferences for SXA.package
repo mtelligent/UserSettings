@@ -1,0 +1,153 @@
+<project site="https://usersettings93sc.dev.local/" format="Zip Package" targetfilefolder="wwwroot">
+  <Metadata>
+    <metadata>
+      <PackageName>User Preferences for SXA</PackageName>
+      <Author>David San Filippo</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License>MIT License
+
+Copyright (c) David San Filippo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</License>
+      <Comment>Install User Settings package to get this to function properly</Comment>
+      <Attributes />
+      <Readme />
+      <Publisher>mtelligent</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/{A6C81D2D-5174-4039-A77A-57C0AA7F037C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Available Renderings/{7A49EC96-921D-4DE5-8D2C-FBEA378CE0BC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Base Templates/{68FB3759-9032-4313-885A-CDA359F7119F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Component Templates/{1E641F20-EBF6-40A1-A89E-12A7AC3D6FCA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Content Templates/{D15C85D2-9E86-40E0-968C-BBDD59A9E39C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Folder Templates/{4205E597-A251-43B7-B32E-CE77846D303A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Rendering Parameters/{8B345D01-AE09-4B49-8B68-ABED6D5856B6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Available Renderings/Preferences List Available Renderings/{B0C4A9BA-BCA4-4884-AEF1-44B8ECB173E5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Available Renderings/Preferences List Available Renderings/__Standard Values/{EB839E5F-8F92-43C0-8058-DA766413A654}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Base Templates/_Preference Item/{0CFEDA0D-DF66-45C5-B3AA-154D0005F293}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Base Templates/_Preference Item/Preference Settings/{0AC6167E-BADE-4756-ABDB-31AFF48C6CB6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Base Templates/_Preference Item/__Standard Values/{1EAC1627-69E2-42C6-919D-B96A7B87B173}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Base Templates/_Preference Item/Preference Settings/Value/{883F4133-5925-4FCA-87C8-6664BB24F2E8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Base Templates/_Preference Item/Preference Settings/TargetUrl/{12F92ACE-7030-4939-A945-EAFD11AA5FA0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Component Templates/Preferences List/{E2D244E6-E655-47BA-BBED-DE09CE925CFA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Component Templates/Preferences List/Details/{F509C588-ECC7-4FD3-8E7F-D440B2F32935}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Component Templates/Preferences List/__Standard Values/{C2F209E7-595F-4D57-8C7D-F7A7C0C10644}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Component Templates/Preferences List/Details/Area/{9AAC115C-EED3-45DD-A2C7-18EE4D18690D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Component Templates/Preferences List/Details/Key/{15E80455-1E0D-4586-B414-5055A76E7353}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Component Templates/Preferences List/Details/HideIfSet/{83417E45-1932-485D-BD11-15F565C3D0F9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Component Templates/Preferences List/Details/ThankYouMessage/{311F9E59-AB83-4BC9-A490-ED1B961094DF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Content Templates/Preferences Item/{98AD638F-CA60-4CBB-B184-0EDE01D56AAF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Content Templates/Preferences Item/__Standard Values/{04DE77E5-C14D-453B-B6FA-6D11A86E60DB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Folder Templates/Preferences List Folder/{D20A45EC-57C8-4EC1-858C-D73C74591ADF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Folder Templates/Preferences List Folder/__Standard Values/{6762DA2E-A586-4F68-B4FD-DBCD0A23DF27}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Rendering Parameters/PreferencesListRenderingParameters/{D6AD2DD5-E942-4498-8652-A8B8C1D4DD5A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Preference/Rendering Parameters/PreferencesListRenderingParameters/__Standard Values/{FCAE60C3-4939-49BE-BEE5-EABCE7333B6E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Preference/{D5ACA93F-4BD2-45DF-8F83-593CDC8466CB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Preference/Preferences List/{FDD462D7-F2AE-4447-AFB9-815CB7CB7C5C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Preference/Preferences List/$name/{0FC855D6-0B81-4EBD-A5FF-0DF6B8C6201E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Preference/Preferences List/$name/Preferences Item 1/{CD755201-7C4E-4A6F-A3DB-3BB04271714B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Preference/Preferences List/$name/Preferences Item 2/{D55A5261-3F59-4B0F-97E9-5DBEA40D7644}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Preference/{D50E0C6C-7CC8-4738-AF17-1735C19420B4}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Preference/Composites/{492F2758-95EF-4F7E-A461-CCA179F5E306}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Preference/Composites/Preferences List/{20A8089B-514B-4881-9FDE-877F91802D64}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Preferences List/{EBF1E8B8-85B9-4C68-844B-AD718972AC48}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Preferences List/Scripts/{4BB8F436-C016-476E-8A98-57733156F4B1}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Preferences List/Styles/{292057B6-A599-4D40-8758-CD0D0599D1EC}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Preferences List/Scripts/preferencesList/{290B6350-DBA5-4ECD-A400-09687EDDC157}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Preferences List/Styles/preferencesList/{4BC952E6-5AC9-495B-8C81-488106530235}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Edit Preferences List Settings/{50754082-9213-473F-8BA6-6F76DC75F8BA}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Preferences List/{202E50A0-6680-4158-B29A-4F23D39B72F8}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Preferences List/Edit Preferences List Item/{074D69C2-0121-416F-9A70-01BF10F5FDD9}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Preferences List/Edit Layout/{4AB8BDD7-485E-4F76-8F59-729FA4C3BFC3}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Preferences List/Insert Sibling/{DC8631C5-18CC-4C1D-B94B-49763F3AF07F}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Preferences List/Delete/{B1CE8F73-D73A-4AD2-9819-3C81C304C395}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Preferences List/Move Up/{02A9E78C-2DA7-47EB-8ECA-8A422C7ACDA1}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Preferences List/Move Down/{A17371E1-6CAE-46B2-958E-7EA4B6F038D0}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Preferences List/Move First/{89C52838-ED69-42D9-8385-72DA19400B45}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Preferences List/Move Last/{C057B5A6-C559-43F6-99DC-FEC65FA96AC6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Preference/{A5544EB2-8925-4D31-844D-6CB5EB81D4FC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Preference/Preference Site Setup/{6CBB1803-13FA-4F62-A7AA-70D520FC3A5C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Preference/Preference Tenant Setup/{F405510C-15C8-474A-814A-4C874A60CCF0}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Preference/Preference Site Setup/Add Available Renderings/{DCC28CB7-9D90-483F-B493-F55B671EDB5F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Preference/Preference Site Setup/Add Data Folder/{30DBB824-A898-4532-A666-7395D5C97417}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Preference/Preference Site Setup/Edit Site Theme/{E9ED425F-32DE-4A73-AD4B-746039EDAB62}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Feature/Feature.Preferences.config</x-item>
+        <x-item>/App_Config/Include/Feature/Feature.Preferences.Serialization.config</x-item>
+        <x-item>/bin/SF.Feature.Preference.dll</x-item>
+        <x-item>/bin/SF.Feature.Preference.pdb</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

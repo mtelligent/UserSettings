@@ -1,0 +1,21 @@
+﻿---
+ID: "202e50a0-6680-4158-b29a-4f23d39b72f8"
+Parent: "e77eee1c-4f50-4a68-918c-47e9a8fc0957"
+Template: "b0666cfe-8c7b-4cc1-8e32-8253742ebfa9"
+Path: /sitecore/content/Applications/WebEdit/Edit Frame Buttons/Preferences List
+DB: core
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111214T152800
+    - ID: "80d9e45b-deaf-4f9e-835b-62b43b715bfb"
+      Hint: Default Title
+      Value: Preferences List Item

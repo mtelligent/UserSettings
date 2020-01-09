@@ -1,0 +1,14 @@
+﻿---
+ID: "d50e0c6c-7cc8-4738-af17-1735c19420b4"
+Parent: "2053f9e6-7493-4ac6-8a5d-f3916f645927"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Feature/SF/Preference
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200108T155827Z

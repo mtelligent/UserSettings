@@ -1,0 +1,9 @@
+﻿.preferences-list-container {
+    display: table;
+    width: 100%;
+}
+
+.preferences-list-item {
+    display: table-cell;
+    cursor: pointer;
+}

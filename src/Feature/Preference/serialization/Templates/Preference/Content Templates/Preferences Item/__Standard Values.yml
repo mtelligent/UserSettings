@@ -1,0 +1,35 @@
+﻿---
+ID: "04de77e5-c14d-453b-b6fa-6d11a86e60db"
+Parent: "98ad638f-ca60-4cbb-b184-0ede01d56aaf"
+Template: "98ad638f-ca60-4cbb-b184-0ede01d56aaf"
+Path: /sitecore/templates/Feature/SF/Preference/Content Templates/Preferences Item/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{B8AB7438-FF88-41A2-B0FD-493FB644E1B2}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B7C5FEDFB-F002-4136-99B0-5ED23040938B%7D&amp;Styles"
+          ph="section-content"
+          uid="{56D54BD2-44AC-43D4-BCF6-31A27231E3B2}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200108T193137Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

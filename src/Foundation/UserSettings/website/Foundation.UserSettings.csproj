@@ -251,7 +251,7 @@
     <Compile Include="Models\CollectionModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="App_Config\Include\Foundation\Foundation.UserSettings.config" />
-    <Content Include="App_Config\Include\Foundation\Serialization.config">
+    <Content Include="App_Config\Include\Foundation\Foundation.UserSettings.Serialization.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Config\Include\Foundation\EpExpressTab.config" />

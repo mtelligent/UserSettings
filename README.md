@@ -55,10 +55,18 @@ The User Settings module add a custom User Settings personalization rule that al
 where the current user has a User Setting for Area "Area Name" and "Key" that "compares to" "Specific Value", 
 allowing content authors to specify the area, key, comparison type and value they wish to use for the condition.
 
+# User Preferences List Module
+
+An optional module for SXA is also part of this project. It gives content authors an SXA component that displays a list of options that when clicked will set a User Setting that can be used for personlization. This can be used to quickly capture visitor intent and personalize based on that.
+
+The component itself is built as a composite and the Item template is based on the Carousel slide, though you can customize the look and feel with variants the same way you can work with the SXA carousel. It uses the User Settings API to save the setting asynchronously, though it can be configured to redirect the page when it returns.
+
 
 # Installation
 
 See the Releases tab to see the latest release of a Sitecore package and xConnect Zip file. As this implementation leverages xConnect for storage and retreival of the facets, you need to unzip this file to the root of the xConnect service. This has been arranged for development envrionments, so may need to be tailored for scaled envrionments.
 
-This has been built and tested for Sitecore 9.3.
+There is a separate package for User Preferences for SXA. After installing, the Preference feature can be activated on your site. Note that it should automatically add the Preferences List Base Theme to your site theme, though sometimes I have seen needing to manually associate your theme with this base theme.
+
+This has been built and tested for Sitecore 9.3 and SXA 9.3.
 

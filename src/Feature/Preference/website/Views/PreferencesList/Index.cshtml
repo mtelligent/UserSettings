@@ -1,0 +1,51 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+
+@model SF.Feature.Preference.Models.PreferencesListModel
+
+@{
+    const string baseKey = "section-content";
+}
+
+@if (Model.HasCompositeLoop)
+{
+    @Model.MessageHasLoop
+}
+else if (Model.DataSourceItem == null)
+{
+    @Model.MessageIsEmpty
+}
+else if (Model.CompositeCount == 0 || Model.HasCompositeLoop)
+{
+    using (Html.Sxa().BeginEditFrame(Model.DataSourceItem.ID.ToString(), "Carousel Empty", Model.IsControlEditable))
+    {
+        @Model.MessageIsEmpty
+    }
+}
+
+@if (Model.Show)
+{
+
+    <div @Html.Sxa().Component("preferences-list", Model.Attributes)>
+        <div class="component-content">
+            <div class="preferences-list-container" data-area='@Html.Raw(Model.Area)' data-key="@Html.Raw(Model.Key)">
+                @foreach (var composite in Model.CompositeItems)
+                {
+                    var placeholderKey = string.Format("{0}-{1}-{2}", baseKey, composite.Key, Model.Id);
+                    var valueToSet = composite.Value.Fields["Value"].Value;
+                    var targetUrl = composite.Value.Fields["TargetUrl"].Value;
+                    <div class="preferences-list-item" data-value="@valueToSet" data-targetUrl="@targetUrl">
+                        @using (Html.Sxa().BeginEditFrame(composite.Value.ID.ToString(), "Preferences List", Model.IsControlEditable))
+                        {
+                            @Html.Sitecore().Placeholder(placeholderKey)
+                        }
+                    </div>
+                }
+            </div>
+            <div class="preferences-list-thank-you-message" style="display:none">
+                @Html.Sitecore().Field("ThankYouMessage", Model.Item)
+            </div>
+        </div>
+    </div>
+
+}

@@ -1,0 +1,14 @@
+﻿---
+ID: "b5b908c7-5f2b-40e0-90b8-6bba12037e60"
+Parent: "93e2a48c-5393-4cc2-9532-d88dd228ee5a"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/layout/Placeholder Settings/Feature/SF/Preference
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200108T155827Z

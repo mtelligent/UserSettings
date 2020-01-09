@@ -1,0 +1,21 @@
+﻿---
+ID: "6762da2e-a586-4f68-b4fd-dbcd0a23df27"
+Parent: "d20a45ec-57c8-4ec1-858c-d73c74591adf"
+Template: "d20a45ec-57c8-4ec1-858c-d73c74591adf"
+Path: /sitecore/templates/Feature/SF/Preference/Folder Templates/Preferences List Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {FDD462D7-F2AE-4447-AFB9-815CB7CB7C5C}
+    {D20A45EC-57C8-4EC1-858C-D73C74591ADF}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200108T212104Z

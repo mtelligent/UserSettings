@@ -77,21 +77,27 @@ namespace SF.Foundation.Facets.Facades
 
         public static void SaveContact()
         {
+            try
+            {
+                if (Tracker.Current.Contact.IsNew || Tracker.Current.Contact.Identifiers.Count == 0)
+                {
+                    Tracker.Current.Session.IdentifyAs("Anon", Tracker.Current.Contact.ContactId.ToString("N"));
+                }
 
-            if (Tracker.Current.Contact.IsNew || Tracker.Current.Contact.Identifiers.Count == 0)
-            {
-                Tracker.Current.Session.IdentifyAs("Anon", Tracker.Current.Contact.ContactId.ToString("N"));
+                // we need the contract to be saved to xConnect. It is only in session now
+                var manager = Sitecore.Configuration.Factory.CreateObject("tracking/contactManager", true) as Sitecore.Analytics.Tracking.ContactManager;
+                if (manager != null)
+                {
+                    // Save contact to xConnect; at this point, a contact has an anonymous
+                    // TRACKER IDENTIFIER, which follows a specific format. Do not use the contactId overload
+                    // and make sure you set the ContactSaveMode as demonstrated
+                    Sitecore.Analytics.Tracker.Current.Contact.ContactSaveMode = ContactSaveMode.AlwaysSave;
+                    manager.SaveContactToCollectionDb(Sitecore.Analytics.Tracker.Current.Contact);
+                }
             }
-            
-            // we need the contract to be saved to xConnect. It is only in session now
-            var manager = Sitecore.Configuration.Factory.CreateObject("tracking/contactManager", true) as Sitecore.Analytics.Tracking.ContactManager;
-            if (manager != null)
+            catch (Exception ex)
             {
-                // Save contact to xConnect; at this point, a contact has an anonymous
-                // TRACKER IDENTIFIER, which follows a specific format. Do not use the contactId overload
-                // and make sure you set the ContactSaveMode as demonstrated
-                Sitecore.Analytics.Tracker.Current.Contact.ContactSaveMode = ContactSaveMode.AlwaysSave;
-                manager.SaveContactToCollectionDb(Sitecore.Analytics.Tracker.Current.Contact);
+                Sitecore.Diagnostics.Log.Error("Error Saving Contact", ex, Settings);
             }
         }
 

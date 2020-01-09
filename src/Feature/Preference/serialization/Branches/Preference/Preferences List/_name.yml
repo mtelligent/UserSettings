@@ -1,0 +1,17 @@
+﻿---
+ID: "0fc855d6-0b81-4ebd-a5ff-0df6b8c6201e"
+Parent: "fdd462d7-f2ae-4447-afb9-815cb7cb7c5c"
+Template: "e2d244e6-e655-47ba-bbed-de09ce925cfa"
+Path: /sitecore/templates/Branches/Feature/SF/Preference/Preferences List/$name
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15e80455-1e0d-4586-b414-5055a76e7353"
+      Hint: Key
+      Value: Visitor Intent
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200108T211010Z

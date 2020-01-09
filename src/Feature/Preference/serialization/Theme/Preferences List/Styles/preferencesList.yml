@@ -1,0 +1,31 @@
+﻿---
+ID: "4bc952e6-5ac9-495b-8c81-488106530235"
+Parent: "292057b6-a599-4d40-8758-cd0d0599d1ec"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: /sitecore/media library/Base Themes/Preferences List/Styles/preferencesList
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/4BC952E65AC9495B8C81488106530235.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "1a3422f9-2f24-4298-aafb-34e4bef77597"
+  Value: 77u/LnByZWZlcmVuY2VzLWxpc3QtY29udGFpbmVyIHsNCiAgICBkaXNwbGF5OiB0YWJsZTsNCiAgICB3aWR0aDogMTAwJTsNCn0NCg0KLnByZWZlcmVuY2VzLWxpc3QtaXRlbSB7DQogICAgZGlzcGxheTogdGFibGUtY2VsbDsNCiAgICBjdXJzb3I6IHBvaW50ZXI7DQp9DQo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 155
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200108T215617Z

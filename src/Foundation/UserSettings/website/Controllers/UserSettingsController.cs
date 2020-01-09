@@ -26,7 +26,7 @@ namespace SF.Foundation.Facets.Controllers
 
         [HttpPost]
         [ActionName("GetUserSetting")]
-        public HttpResponseMessage GetUserSetting(string key, string area, string value)
+        public HttpResponseMessage SetUserSetting(string key, string area, [FromBody] string value)
         {
             var userSettings = SF.Foundation.Facets.Facades.UserSettings.Settings;
             userSettings[key, area] = value;
@@ -43,7 +43,7 @@ namespace SF.Foundation.Facets.Controllers
 
         [HttpPost]
         [ActionName("GetAreaSettings")]
-        public HttpResponseMessage SaveAreaSettings(string area, Dictionary<string, string> settings)
+        public HttpResponseMessage SaveAreaSettings(string area, [FromBody] Dictionary<string, string> settings)
         {
             var userSettings = SF.Foundation.Facets.Facades.UserSettings.Settings;
             userSettings.UpdateArea(area, settings);
