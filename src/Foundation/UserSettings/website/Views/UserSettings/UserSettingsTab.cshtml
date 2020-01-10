@@ -1,14 +1,21 @@
 ﻿@model SF.Foundation.UserSettings.EETab.UserSettingsTabModel
 
 @{ 
-    foreach (var area in Model.UserSettings.Keys)
+    if (Model.UserSettings == null || Model.UserSettings.Count == 0)
     {
-        <h3>@area</h3>
-        <ul>
-            @foreach(var key in Model.UserSettings[area].Keys)
-            {
-                <li><strong>@key : </strong> @Model.UserSettings[area][key]</li>
-            }
-        </ul>
+        <p>No Settings Exists for this Contact.</p>
+    }
+    else
+    {
+        foreach (var area in Model.UserSettings.Keys)
+        {
+            <h3>@area</h3>
+            <ul>
+                @foreach (var key in Model.UserSettings[area].Keys)
+                {
+                    <li><strong>@key : </strong> @Model.UserSettings[area][key]</li>
+                }
+            </ul>
+        }
     }
 }

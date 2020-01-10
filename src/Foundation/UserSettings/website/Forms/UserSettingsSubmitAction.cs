@@ -24,6 +24,42 @@ namespace SF.Foundation.Facets.Forms
 
             foreach (var field in formSubmitContext.Fields)
             {
+                
+                if (field is Sitecore.ExperienceForms.Mvc.Models.Fields.ListViewModel)
+                {
+                    var listField = field as Sitecore.ExperienceForms.Mvc.Models.Fields.ListViewModel;
+                    settings[field.Name, area] = string.Join(",", listField.Value);
+                    continue;
+                }
+
+                if (field is Sitecore.ExperienceForms.Mvc.Models.Fields.CheckBoxListViewModel)
+                {
+                    var listField = field as Sitecore.ExperienceForms.Mvc.Models.Fields.CheckBoxListViewModel;
+                    settings[field.Name, area] = string.Join(",", listField.Value);
+                    continue;
+                }
+
+                if (field is Sitecore.ExperienceForms.Mvc.Models.Fields.DropDownListViewModel)
+                {
+                    var listField = field as Sitecore.ExperienceForms.Mvc.Models.Fields.DropDownListViewModel;
+                    settings[field.Name, area] = string.Join(",", listField.Value);
+                    continue;
+                }
+
+                if (field is Sitecore.ExperienceForms.Mvc.Models.Fields.ListBoxViewModel)
+                {
+                    var listField = field as Sitecore.ExperienceForms.Mvc.Models.Fields.ListBoxViewModel;
+                    settings[field.Name, area] = string.Join(",", listField.Value);
+                    continue;
+                }
+
+                if (field is Sitecore.ExperienceForms.Mvc.Models.Fields.ListViewModel)
+                {
+                    var listField = field as Sitecore.ExperienceForms.Mvc.Models.Fields.ListViewModel;
+                    settings[field.Name, area] = string.Join(",", listField.Value);
+                    continue;
+                }
+
                 settings[field.Name, area] = GetValue(field);
             }
 

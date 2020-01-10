@@ -28,7 +28,8 @@ namespace SF.Foundation.Facets
                 {
                     if (userSettings.ContainsKey(Key, Area))
                     {
-                        return Compare(userSettings[Key, Area], Value);
+                        var result = Compare(userSettings[Key, Area], Value);
+                        return result;
                     }                    
                 }
             }
